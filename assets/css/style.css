@@ -1,21 +1,21 @@
 body { background-color: #f8f9fa; }
         .highlight { background-color: #fff3cd !important; transition: background-color 0.5s ease; }
         
-        /* फक्त Spinner दिसण्यासाठी ट्रान्सपरंट लोडर CSS */
+        
         #loader {
             position: fixed;
             top: 0;
             left: 0;
             width: 100%;
             height: 100%;
-            background-color: transparent; /* बॅकग्राउंड पूर्ण ट्रान्सपरंट ठेवला आहे */
-            pointer-events: none; /* बॅकग्राउंडवर क्लिक करता येईल */
+            background-color: transparent; 
+            pointer-events: none; 
             z-index: 9999;
             display: none;
             justify-content: center;
             align-items: center;
         }
-        /* जेव्हा लोडर ॲक्टिव्ह असेल तेव्हा स्पिनरवर माउसचे क्लिक ब्लॉक होणार नाही */
+        
         #loader .spinner-border {
             pointer-events: auto;
             box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
